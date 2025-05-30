@@ -26,6 +26,12 @@ export const COMPONENT_LIST: ComponentItem[] = [
 		code: import('../accordion/usage.svelte?raw')
 	},
 	{
+		name: 'Avatar',
+		description: 'A customizable avatar component.',
+		component: import('../avatar/usage.svelte'),
+		code: import('../avatar/usage.svelte?raw')
+	},
+	{
 		name: 'Modal',
 		description: 'A customizable modal component.',
 		component: import('../modal/usage.svelte'),
